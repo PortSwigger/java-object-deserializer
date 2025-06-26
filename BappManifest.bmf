@@ -1,0 +1,13 @@
+Uuid: 07d944f6324d4ae5bc4e71f87864ec8b
+ExtensionType: 1
+Name: Java Object Deserializer
+RepoName: java-object-deserializer
+ScreenVersion: 0.9.1
+SerialVersion: 1
+MinPlatformVersion: 18
+ProOnly: False
+Author: Omer Cohen
+ShortDescription: Deserialize Java objects and encode them in XML.
+EntryPoint: build/libs/java-object-deserializer-main-SNAPSHOT.jar
+BuildCommand: ./gradlew jar
+SupportedProducts: Pro, Community

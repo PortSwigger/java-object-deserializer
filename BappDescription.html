@@ -1,0 +1,25 @@
+<p>Deserialize Java objects and encode them in XML using the XStream library.</p>
+
+<p>Based in part on <a href="https://github.com/khai-tran/BurpJDSer">khai-tran</a>'s work, but rewritten from scratch to work with the new Montoya API.</p>
+
+<h2>Usage</h2>
+
+<h3>Find and Download Client JAR Files</h3>
+
+<p>There are a few methods to locate the required JAR files containing the classes to be deserialized:</p>
+
+<ul>
+	<li>If you have a <code class="InlineCode">.jnlp</code> file, use jnpdownloader.</li>
+	<li>Locate JAR files in the browser cache.</li>
+	<li>Look for JAR files in Burp proxy history.</li>
+</ul>
+
+<h3>Load the JAR files</h3>
+
+<p>Use the <code class="InlineCode">JDSer</code> tab to load the JAR files containing the classes you want to deserialize.</p>
+
+<h3>Inspect Serialized Java Traffic</h3>
+
+<p>Serialized Java content will automatically appear in the <code class="InlineCode">Java Object</code> tab in appropriate locations (Proxy History, Intercept, Repeater, etc.). Any changes made to the XML will serialize back once you switch to a different tab or send the request.</p>
+
+<p>If you get an error that a class was not found, you can add the JAR file containing that class in the <code class="InlineCode">JDSer</code> tab and try again.</p>
