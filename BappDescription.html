@@ -23,3 +23,11 @@
 <p>Serialized Java content will automatically appear in the <code class="InlineCode">Java Object</code> tab in appropriate locations (Proxy History, Intercept, Repeater, etc.). Any changes made to the XML will serialize back once you switch to a different tab or send the request.</p>
 
 <p>If you get an error that a class was not found, you can add the JAR file containing that class in the <code class="InlineCode">JDSer</code> tab and try again.</p>
+
+<h2>Testing with an Example Application</h2>
+
+<p>The source repository includes a simple Java application that can be used to test the plugin. The application posts a simple serialized Java object to a server. You can use the <code class="InlineCode">./gradlew runExample</code> command to run the application.</p>
+
+<p>The JAR file containing the classes used in the example application is located in <code class="InlineCode">./build/libs/example-main-SNAPSHOT.jar</code>.</p>
+
+<p> You can load this JAR file in the "JDSer" tab of the plugin to deserialize the Java objects sent by the example application.</p>
