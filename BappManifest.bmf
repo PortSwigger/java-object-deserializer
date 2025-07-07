@@ -3,7 +3,7 @@ ExtensionType: 1
 Name: Java Object Deserializer
 RepoName: java-object-deserializer
 ScreenVersion: 0.9.1
-SerialVersion: 2
+SerialVersion: 3
 MinPlatformVersion: 18
 ProOnly: False
 Author: Omer Cohen
